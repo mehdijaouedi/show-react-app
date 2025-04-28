@@ -103,7 +103,7 @@ const RodolpheData = () => {
             <br />
             * Un paiement comptant.
             <br />
-            * 0 % de commission (consulter notre comparatif vente privée/vente aux enchères)
+            * 0 % de commission 
             <br />
             * Réactivité
             <br />

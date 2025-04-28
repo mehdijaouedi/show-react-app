@@ -89,33 +89,31 @@ const CategorySection = () => {
           }}
         >
           <Typography variant="h5" fontWeight="bold" gutterBottom>
-            M. Rodolphe Meyer – La Passion de l'Art
+            Mr Rodolphe Meyer – La Passion de l'Art
           </Typography>
           <Typography variant="body1" color="text.secondary" paragraph>
-            M. Rodolphe Meyer est le contact principal en Europe pour l'achat
-            direct d'œuvres d'art et de collections. Il offre son expertise aux
-            particuliers ainsi qu'aux professionnels de l'art, garantissant des
-            paiements sans commission, un service de qualité et une
-            confidentialité totale.
+            Mr Rodolphe Meyer est le premier interlocuteur en Europe pour l'achat comptant d'œuvres d'art et de pièces de collection. Mr Rodolphe Meyer met son expertise au service des particuliers et professionnels du monde de l'art et s'engage sur le paiement sans commission, avec l'assurance d'une prestation haut de gamme et en toute confidentialité.
           </Typography>
 
           <Typography variant="h6" fontWeight="bold" sx={{ mt: 2 }}>
-            Estimation des Prix du Marché
+            ESTIMATION AU PRIX DU MARCHÉ
           </Typography>
           <Typography variant="body2" color="text.secondary" paragraph>
-            Un service d'évaluation gratuit est disponible, garantissant des
-            prix équitables en fonction des tendances actuelles du marché. Si un
-            objet est très recherché, le prix d'achat peut dépasser la valeur du
-            marché.
+            Mr Rodolphe Meyer vous propose un service d'estimation gratuit de vos oeuvres d'art à un prix cohérent, fixé en fonction des cours du marché actuel. Vous avez l'assurance d'un prix adapté et justifié, pour une vente qui vous donnera pleinement satisfaction. En outre, lorsqu'il s'agit de pièces spécifiquement recherchées, le montant du rachat peut dépasser le prix du marché.
           </Typography>
 
           <Typography variant="h6" fontWeight="bold" sx={{ mt: 2 }}>
-            Offres Claires et Transparentes
+            UNE OFFRE FERME ET CLAIRE
           </Typography>
           <Typography variant="body2" color="text.secondary" paragraph>
-            Toutes les évaluations sont réalisées personnellement par M. Meyer,
-            en se basant sur des critères précis et détaillés, fournissant une
-            offre de prix ferme et transparente.
+            Mr Rodolphe Meyer applique une politique commerciale rigoureuse et encadrée. L'estimation de votre bien est effectuée par ces propres soins, sur la base de critères précis et circonstanciés dont la liste vous est détaillée de façon exhaustive. Ainsi, nous sommes en mesure de vous faire parvenir une offre de prix ferme et transparent pour vous garantir une transaction réalisée dans des conditions optimales.
+          </Typography>
+
+          <Typography variant="h6" fontWeight="bold" sx={{ mt: 2 }}>
+            ACHAT IMMÉDIAT SANS COMMISSION
+          </Typography>
+          <Typography variant="body2" color="text.secondary" paragraph>
+            Mr Rodolphe Meyer s'engage sur le principe du rachat d'oeuvre d'art immédiat sans commission. En effet, étant détenu par une structure financière indépendante notre visibilité en termes de capitaux est étendue, ce qui nous permet des transactions saines et mesurées.
           </Typography>
         </Box>
 

@@ -144,7 +144,7 @@ const Navbar = () => {
       bgcolor: "#f8ecd7",
       height: "100%",
       px: 2, // padding for inner spacing
-      mt:10
+      mt:16
     }}
     role="presentation"
     onClick={toggleDrawer(false)}
