@@ -41,27 +41,82 @@ function ProductsList() {
     const fetchProducts = async () => {
       try {
         const data = await sanityClient.fetch(`
-          *[_type == "objet"]{
-            _id,
-            nom,
-            prix,
-            description,
-            dbId,
-            images[]->{
+          [
+            ...*[_type == "objet"]{
+              _type,
               _id,
-              alt,
-              file{
-                asset->{
-                  url
+              nom,
+              prix,
+              description,
+              dbId,
+              images[]->{
+                _id,
+                alt,
+                file{
+                  asset->{
+                    url
+                  }
+                }
+              }
+            },
+            ...*[_type == "presentation"]{
+              _type,
+              _id,
+              nom,
+              prix,
+              description,
+              dbId,
+              images[]->{
+                _id,
+                alt,
+                file{
+                  asset->{
+                    url
+                  }
+                }
+              }
+            },
+               ...*[_type == "comment_vendre"]{
+              _type,
+              _id,
+              nom,
+              prix,
+              description,
+              dbId,
+              images[]->{
+                _id,
+                alt,
+                file{
+                  asset->{
+                    url
+                  }
+                }
+              }
+            },
+               ...*[_type == "mr_Rodolphe_Meyer"]{
+              _type,
+              _id,
+              nom,
+              prix,
+              description,
+              dbId,
+              images[]->{
+                _id,
+                alt,
+                file{
+                  asset->{
+                    url
+                  }
                 }
               }
             }
-          }
+          ]
         `);
         setProducts(data);
       } catch (error) {
-        console.error("Error fetching products:", error);
+        console.error("Error fetching data:", error);
       }
+       
     };
 
     fetchProducts();

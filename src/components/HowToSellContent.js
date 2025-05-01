@@ -42,7 +42,7 @@ const HowToSellContent = () => {
     const fetchProducts = async () => {
       try {
         const data = await sanityClient.fetch(`
-          *[_type == "objet"]{
+          *[_type == "comment_vendre"]{
             _id,
             nom,
             prix,
@@ -120,7 +120,7 @@ const HowToSellContent = () => {
 
         {/* Right: Cards Grid */}
         <Grid container spacing={4} justifyContent="center" alignItems="flex-start" sx={{ mt: 4 }}>
-          {products?.slice(4, 6).map((product, index) => (
+          {products?.slice(0, 2).map((product, index) => (
             <Grid item xs={12} sm={6} md={4} key={product._id || index} sx={{ display: "flex", justifyContent: "center" }}>
               <Card
                 sx={{

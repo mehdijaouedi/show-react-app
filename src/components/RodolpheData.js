@@ -45,7 +45,7 @@ const RodolpheData = () => {
     const fetchProducts = async () => {
       try {
         const data = await sanityClient.fetch(`
-          *[_type == "objet"]{
+          *[_type == "mr_Rodolphe_Meyer"]{
             _id,
             nom,
             prix,
