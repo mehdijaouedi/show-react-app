@@ -58,57 +58,6 @@ function ProductsList() {
                   }
                 }
               }
-            },
-            ...*[_type == "presentation"]{
-              _type,
-              _id,
-              nom,
-              prix,
-              description,
-              dbId,
-              images[]->{
-                _id,
-                alt,
-                file{
-                  asset->{
-                    url
-                  }
-                }
-              }
-            },
-               ...*[_type == "comment_vendre"]{
-              _type,
-              _id,
-              nom,
-              prix,
-              description,
-              dbId,
-              images[]->{
-                _id,
-                alt,
-                file{
-                  asset->{
-                    url
-                  }
-                }
-              }
-            },
-               ...*[_type == "mr_Rodolphe_Meyer"]{
-              _type,
-              _id,
-              nom,
-              prix,
-              description,
-              dbId,
-              images[]->{
-                _id,
-                alt,
-                file{
-                  asset->{
-                    url
-                  }
-                }
-              }
             }
           ]
         `);
