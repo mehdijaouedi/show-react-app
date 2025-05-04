@@ -12,7 +12,8 @@ import { useEffect, useState } from "react";
 import rodolpheCategories from "./dummyData";
 
 const CategorySection = () => {
-  const categories = rodolpheCategories
+  const categories = rodolpheCategories;
+
   const formatTitle = (title) => {
     const maxLength = 25;
     const words = title.split(" ");
@@ -70,11 +71,9 @@ const CategorySection = () => {
 
     fetchProducts();
   }, []);
+
   return (
-    <Container
-      maxWidth="lg"
-      sx={{ py: { xs: 3, md: 5 }, mt: 15 }}
-    >
+    <Container maxWidth="lg" sx={{ py: { xs: 3, md: 5 }, mt: 15 }}>
       <Box
         display="flex"
         flexDirection={{ xs: "column", md: "row" }}
@@ -118,9 +117,22 @@ const CategorySection = () => {
         </Box>
 
         {/* Right: Cards Grid */}
-        <Grid container spacing={4} justifyContent="center" alignItems="flex-start" sx={{ mt: 4 }}>
-          {products?.slice(0, 2).map((product, index) => (
-            <Grid item xs={12} sm={6} md={4} key={product._id || index} sx={{ display: "flex", justifyContent: "center" }}>
+        <Grid
+          container
+          spacing={4}
+          justifyContent="center"
+          alignItems="flex-start"
+          sx={{ mt: 4, maxWidth: 650, mx: "auto" }}
+        >
+          {products?.slice(0, 4).map((product, index) => (
+            <Grid
+              item
+              xs={12}
+              sm={6}
+              md={6}
+              key={product._id || index}
+              sx={{ display: "flex", justifyContent: "center" }}
+            >
               <Card
                 sx={{
                   width: 300,
@@ -131,15 +143,13 @@ const CategorySection = () => {
                   display: "flex",
                   flexDirection: "column",
                   border: "1px solid rgba(0, 0, 0, 0.1)",
-                  overflow: "hidden"
+                  overflow: "hidden",
                 }}
               >
                 <CardMedia
                   component="img"
                   height="250"
-                  image={
-                    product.images?.[0]?.file?.asset?.url || "/logo.jpeg"
-                  }
+                  image={product.images?.[0]?.file?.asset?.url || "/logo.jpeg"}
                   alt={product.images?.[0]?.alt || product.nom}
                   sx={{
                     borderRadius: "12px 12px 0 0",
@@ -151,13 +161,13 @@ const CategorySection = () => {
                     transformOrigin: "center",
                     transition: "transform 0.3s ease",
                     "&:hover": {
-                      transform: "scale(1)"
-                    }
+                      transform: "scale(1)",
+                    },
                   }}
                 />
-                <CardContent 
-                  sx={{ 
-                    textAlign: "left", 
+                <CardContent
+                  sx={{
+                    textAlign: "left",
                     bgcolor: "rgba(250, 233, 207, 0.7)",
                     flexGrow: 1,
                     display: "flex",
@@ -165,11 +175,11 @@ const CategorySection = () => {
                     justifyContent: "left",
                     padding: "15px 25px",
                     backdropFilter: "blur(5px)",
-                    height: 190
+                    height: 190,
                   }}
                 >
-                  <Typography 
-                    fontWeight="bold" 
+                  <Typography
+                    fontWeight="bold"
                     sx={{
                       fontSize: "1.1rem",
                       lineHeight: 1.3,
@@ -178,10 +188,10 @@ const CategorySection = () => {
                       transformOrigin: "center",
                       transition: "transform 0.3s ease",
                       "&:hover": {
-                        transform: "scale(1)"
+                        transform: "scale(1)",
                       },
                       whiteSpace: "normal",
-                      wordBreak: "break-word"
+                      wordBreak: "break-word",
                     }}
                   >
                     {product.nom}
