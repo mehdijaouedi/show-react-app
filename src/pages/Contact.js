@@ -77,7 +77,7 @@ const ContactPage = () => {
           >
             Schanzenstrasse 4 ,
             3008 Berne ,
-            Suisse
+            Switzerland 
           </Typography>
         </Box>
       </Box>
