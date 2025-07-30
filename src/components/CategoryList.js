@@ -105,7 +105,7 @@ const CategorySection = () => {
             UNE OFFRE FERME ET CLAIRE
           </Typography>
           <Typography variant="body2" color="text.secondary" paragraph>
-            Mr Rodolphe Meyer applique une politique commerciale rigoureuse et encadrée. L'estimation de votre bien est effectuée par ses propres soins, sur la base de critères précis et circonstanciés dont la liste vous est détaillée de façon exhaustive. Ainsi, nous sommes en mesure de vous faire parvenir une offre de prix ferme et transparent pour vous garantir une transaction réalisée dans des conditions optimales.
+            Mr Rodolphe Meyer applique une politique commerciale rigoureuse et encadrée. L'estimation de votre bien est effectuée par ses propres soins, sur la base de critères précis et circonstanciés dont la liste vous est détaillée de façon exhaustive. Ainsi, nous sommes en mesure de vous faire parvenir une offre de prix ferme et transparente pour vous garantir une transaction réalisée dans des conditions optimales.
           </Typography>
 
           <Typography variant="h6" fontWeight="bold" sx={{ mt: 2 }}>
