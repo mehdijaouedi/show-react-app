@@ -43,7 +43,7 @@ const ContactPage = () => {
           </Typography>
         </Box>
 
-        <Box display="flex" alignItems="center" gap={2}>
+        {/* <Box display="flex" alignItems="center" gap={2}>
           <Phone sx={{ color: '#a68e5d', fontSize: 30 }} />
           <Typography
             component="a"
@@ -58,7 +58,7 @@ const ContactPage = () => {
           >
             +41 31 900 19 40
           </Typography>
-        </Box>
+        </Box> */}
 
         <Box display="flex" alignItems="center" gap={2}>
           <LocationOn sx={{ color: '#a68e5d', fontSize: 30 }} />

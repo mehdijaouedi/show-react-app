@@ -112,7 +112,7 @@ const HowToSellContent = () => {
           </Typography>
           <Typography variant="body2" color="text.secondary" paragraph>
             La vente d'une œuvre d'art peut être publique ou privée. Chaque
-            façon de vendre une œuvre à des avantages et inconvénient qu'il est
+            façon de vendre une œuvre à des avantages et inconvénients qu'il est
             nécessaire de prendre en compte afin de choisir le canal de vente
             qui répond le mieux à la situation.
           </Typography>

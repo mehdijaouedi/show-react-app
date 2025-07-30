@@ -105,14 +105,14 @@ const CategorySection = () => {
             UNE OFFRE FERME ET CLAIRE
           </Typography>
           <Typography variant="body2" color="text.secondary" paragraph>
-            Mr Rodolphe Meyer applique une politique commerciale rigoureuse et encadrée. L'estimation de votre bien est effectuée par ces propres soins, sur la base de critères précis et circonstanciés dont la liste vous est détaillée de façon exhaustive. Ainsi, nous sommes en mesure de vous faire parvenir une offre de prix ferme et transparent pour vous garantir une transaction réalisée dans des conditions optimales.
+            Mr Rodolphe Meyer applique une politique commerciale rigoureuse et encadrée. L'estimation de votre bien est effectuée par ses propres soins, sur la base de critères précis et circonstanciés dont la liste vous est détaillée de façon exhaustive. Ainsi, nous sommes en mesure de vous faire parvenir une offre de prix ferme et transparent pour vous garantir une transaction réalisée dans des conditions optimales.
           </Typography>
 
           <Typography variant="h6" fontWeight="bold" sx={{ mt: 2 }}>
             ACHAT IMMÉDIAT SANS COMMISSION
           </Typography>
           <Typography variant="body2" color="text.secondary" paragraph>
-            Mr Rodolphe Meyer s'engage sur le principe du rachat d'oeuvre d'art immédiat sans commission. En effet, étant détenu par une structure financière indépendante notre visibilité en termes de capitaux est étendue, ce qui nous permet des transactions saines et mesurées.
+            Mr Rodolphe Meyer s'engage sur le principe du rachat d'oeuvre d'art immédiat sans commission. En effet, étant détenue par une structure financière indépendante notre visibilité en termes de capitaux est étendue, ce qui nous permet des transactions saines et mesurées.
           </Typography>
         </Box>
 
