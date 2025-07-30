@@ -30,7 +30,7 @@ const ContactPage = () => {
           <Email sx={{ color: '#a68e5d', fontSize: 30 }} />
           <Typography
             component="a"
-            href="mailto:rodolphemeyer.expert@gmail.com"
+            href="mailto:contact@rodolphemeyer-expert.com"
             sx={{
               color: 'black',
               textDecoration: 'none',
@@ -39,7 +39,7 @@ const ContactPage = () => {
               '&:hover': { textDecoration: 'underline' },
             }}
           >
-            rodolphemeyer.expert@gmail.com
+            contact@rodolphemeyer-expert.com
           </Typography>
         </Box>
 
